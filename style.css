@@ -8,6 +8,7 @@ h1{
 
 p, a{
     font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
    
     
 }
@@ -20,8 +21,12 @@ h3{
 h3,h4,h5{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    margin-top: 15px;
 }
-
+.city-search{
+    margin-top: 15px;
+   
+}
 .jumbotron{
     background-color:rgb(75, 73, 73);
     color: rgb(255, 255, 255);
@@ -30,3 +35,35 @@ h3,h4,h5{
     
 }
 
+.card-body{
+    background-color:lightblue;
+    
+}
+
+.low{
+    background-color: green;
+    padding: 5px;
+    color: white;
+    border-radius: 6px;
+}
+
+.medium{
+    background-color: yellow;
+    padding: 5px;
+    color: white;
+    border-radius: 6px;
+}
+
+.high{
+    background-color: orange;
+    padding: 5px;
+    color: white;
+    border-radius: 6px;
+}
+
+.veryHigh{
+    background-color: red;
+    padding: 5px;
+    color: white;
+    border-radius: 6px;
+}

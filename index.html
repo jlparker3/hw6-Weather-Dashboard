@@ -11,8 +11,8 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
     <!-- link to fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
-    <!-- Link to Moment.js
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/af.js" /> -->
+    <!-- Link to moment.js -->
+    <!-- <script src=“https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js” integrity=“sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ” crossorigin=“anonymous”></script> -->
     <!-- link to my style.css -->
     <link rel="stylesheet" href="style.css">
     <title>Weather Forecast</title>
@@ -28,36 +28,37 @@
     </div>
 
     <div class="container">
+
+
+
+        <!-- Weather Information Section -->
         <div class="row">
-
-
-            <!-- Weather Information Section -->
-            <div class="row">
-                <div class="col-sm-3">
-                    <!-- search button for different cities -->
-                    <form>
-                        <div class="form-group">
-                            <label for="city-search">Search for a City:</label>
-                            <input type="text" class="form-control" id="citySearch">
-                        </div>
-                        <button type="submit" class="btn btn-primary" id="citySearchBtn">Submit</button>
-                    </form>
-
-                    <!-- City List -->
-                    <div class="list-group" id="#cityList"></div>
-
-                </div>
-                <div class="col-sm-9">
-                    <div   id="weatherContainer">
-                         
+            <div class="col-sm-3">
+                <!-- search button for different cities -->
+                <form>
+                    <div class="form-group">
+                        <label for="city-search">Search for a City:</label>
+                        <input type="text" class="form-control" id="citySearch">
                     </div>
-                    <div id="forecast"></div>
-                </div>
-              
-             
+                    <button type="submit" class="btn btn-primary" id="citySearchBtn">Submit</button>
+                </form>
+
+                <!-- City List -->
+                <div class="list-group" id="#cityList"></div>
 
             </div>
+            <div class="col-sm-9">
+                <div id="weatherContainer">
+
+                </div>
+                
+
+            </div>
+
+
+
         </div>
+        <div id="forecast" class="row"></div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
