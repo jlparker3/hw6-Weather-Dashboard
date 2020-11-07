@@ -4,7 +4,7 @@
 https://jlparker3.github.io/hw6-Weather-Dashboard/
 
 ## Screenshot of working application
-<img width="1674" alt="Screen Shot 2020-10-27 at 7 44 26 PM" src="https://user-images.githubusercontent.com/68556793/98451690-b59a1e80-210d-11eb-8458-94075d7abbbd.png">
+<img width="1440" alt="Screen Shot 2020-11-07 at 3 28 31 PM" src="https://user-images.githubusercontent.com/68556793/98451702-e67a5380-210d-11eb-9f90-cab6503fc211.png">
 
 
 ## Purpose of Application
